@@ -1,0 +1,166 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+header ul li a {
+    font-size: 16px;
+    padding: 0 7px;
+    margin-left: 7px;
+}
+section.block1 .title-block{
+	font-size: 30px;
+}
+section.block1 .teaser-short{
+	font-size: 28px;
+}
+section.block1 .teaser{
+	max-width: 360px;
+	width: 100%;
+	font-size: 36px;
+}
+section.prices-plans .wrp-credit{
+	max-width: 360px;
+	width: 100%;
+}
+section.prices-plans .wrp-credit .in-credit{
+	font-size: 16px;
+}
+section.gallery .wrapper .tabs .tab {
+    margin-right: 7px;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 19px 8px;
+}
+section.zastroychik .text-zastroychik{
+	font-size: 21px;
+}
+section.zastroychik .wrp-poseydon img{
+	max-width: 260px;
+	display: block;
+	margin: 0 auto;
+}
+section.zastroychik .wrp-poseydon {
+    padding: 95px 0 68px;
+}
+section.adres .wrp-otdel-img .wrp-text-otdel ul li {
+    font-size: 17px;
+}
+footer .btn-bottom{
+	margin: 0 14px;
+}
+footer .btn-phone {
+    width: 100%;
+    font-size: 13px;
+    padding-left: 65px;
+}
+footer .btn-phone a{
+	font-size: 18px;
+}
+footer .btn-phone a.callback{
+	font-size: 11px;
+}
+footer .p3{
+	font-size: 13px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.logo {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+section.block1 .teaser {
+    font-size: 26px;
+}
+section.block1 .teaser-short strong{
+	font-size: 26px;
+}
+section.block1 .teaser-short {
+    font-size: 21px;
+}
+section.gallery .wrapper .tabs .tab {
+    font-size: 16px;
+}
+section.zastroychik .text-zastroychik {
+    font-size: 15px;
+}
+section.zastroychik .wrp-poseydon img {
+    max-width: 195px;
+}
+section.zastroychik .wrp-poseydon {
+    padding: 95px 0 76px;
+}
+section.adres .wrp-otdel-img img {
+    max-width: 125px;
+}
+section.adres .block-adres .wrp-phone-sell strong{
+	font-size: 23px;
+}
+section.adres .block-adres .wrp-phone-sell .ph{
+	font-size: 26px;
+}
+footer .btn-phone {
+    width: 211px;
+    margin-left: -40px;
+}
+.btn-bottom {
+    margin: 3px auto 10px !important;
+    display: block !important;
+}
+section.block1 .title-block {
+    font-size: 22px;
+}
+.white-popup2 {
+    width: 700px;
+}
+.weonmap{
+	width: 100%;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

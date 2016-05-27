@@ -1,0 +1,1013 @@
+body {
+  font-family: "MyriadProRegular", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  -webkit-font-smoothing: antialised;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red;
+}
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Панель навигации */
+header {
+  background-color: #4da2bf;
+  padding: 30px 0 28px;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  background-color: #4da2bf;
+  border: 1px solid #fefefe;
+  color: #fff;
+  display: block;
+  text-align: center;
+  font-family: Tahoma;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 13px 15px 11px;
+  margin-left: 11px;
+  background-image: url("../images/gradient-mnu.png");
+  background-repeat: no-repeat;
+  background-position: right 0;
+  transition: all 0.3s ease;
+}
+
+header ul li a:hover {
+  background-color: #feba3d;
+  color: #0f1c25;
+}
+
+.nav-white {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  display: inline-block;
+}
+
+.nav-white ul li {
+  text-align: center;
+}
+
+.nav-white ul li a {
+  
+}
+
+.nav-white ul li a:hover {
+  background-color: #feba3d;
+  color: #0f1c25;
+}
+
+/* Конец блока Панель навигации */
+
+/* Больщой слайдер */
+.top-fotorama .fotorama__nav-wrap {
+  display: none;
+}
+/* Конец Большого слайдера */
+
+/* Блок с адресом */
+section.block1 {
+  padding-top: 15px;
+  padding-bottom: 70px;
+}
+
+section.block1 .title-block {
+  font-size: 33px;
+  line-height: 58px;
+  text-decoration: underline;
+  color: #0f1c25;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+section.block1 .title-block a {
+  color: #4da2bf;
+  margin-left: 15px;
+}
+
+section.block1 .title-block a img {
+  margin-right: 10px;
+}
+
+section.block1 .teaser-short {
+  color: #394b50;
+  font-size: 33px;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+
+section.block1 .teaser-short strong {
+  font-family: "MyriadProBold";
+  line-height: 50px;
+  color: #0f1c25;
+  font-size: 42px;
+  display: block;
+  width: 100%;
+}
+
+section.block1 .teaser {
+  width: 361px;
+  height: 111px;
+  background-color: #feba3d;
+  color: #fff;
+  font-family: "MyriadProBold";
+  font-size: 42px;
+  line-height: 120px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+section.block1 .teaser:after {
+  content: '';
+  right: -22px;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 55.5px 0 55.5px 22px;
+  border-color: transparent transparent transparent #feba3d;
+}
+/* Конец Блока с адресом */
+
+/* Блок Цены и планировки */
+section.prices-plans {
+  background-color: #e7edf3;
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+section.prices-plans .span-cursor img {
+  display: block;
+  margin: 35px auto 15px;
+}
+
+section.prices-plans .title-block {
+  text-align: center;
+  margin-bottom: 120px;
+  color: #0f1c25;
+  font-family: "MyriadProBold";
+  font-size: 42px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+section.prices-plans .wrp-credit {
+  width: 360px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: 0px 3px 8px 2px rgba(0, 0, 0, 0.7);
+}
+
+section.prices-plans .wrp-credit:hover {
+  transform: scale(1.1);
+}
+
+section.prices-plans .wrp-credit .wrp-in-credit2 {
+  background-color: #feba3d !important;
+}
+
+section.prices-plans .wrp-credit .wrp-in-credit3 {
+  background-color: #719dca !important;
+}
+
+section.prices-plans .wrp-credit .wrp-in-credit {
+  border-radius: 6px;
+  background-color: #717070;
+  padding: 15px 5px;
+  background-image: url("../images/gradient-tab.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top 0;
+}
+
+section.prices-plans .wrp-credit .in-credit {
+  line-height: 21px;
+  color: #fff;
+  font-size: 20px;
+  display: table-row;
+}
+
+section.prices-plans .wrp-credit .in-credit .wrp-text-credit {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+section.prices-plans .wrp-credit .in-credit img {
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 25px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+section.prices-plans .wrp-credit .in-credit strong {
+  display: block;
+  color: #fff;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+/* Конец Блока Цены и планировки */
+
+/* Блок Галерея */
+section.gallery {
+  margin-top: -75px;
+}
+
+section.gallery .title-block {
+  padding-top: 75px;
+  text-align: center;
+  margin-bottom: 67px;
+  color: #0f1c25;
+  font-family: "MyriadProBold";
+  font-size: 42px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+section.gallery .wrapper .tabs {
+  text-align: center;
+}
+
+section.gallery .wrapper .tabs .tab:last-child {
+  margin-right: 0;
+}
+
+section.gallery .wrapper .tabs .tab {
+  margin-right: 13px;
+  color: #0f1c25;
+  font-size: 25px;
+  line-height: 22px;
+  background-image: url("../images/gradient-tab.png");
+  text-transform: uppercase;
+  padding: 19px 15px;
+  background-color: #fff;
+  border: 1px solid #709dca;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: all .3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+section.gallery .wrapper .tabs .tab:hover {
+  background-color: #feba3d;
+}
+
+section.gallery .wrapper .tabs .active {
+  background-color: #feba3d;
+}
+
+section.gallery .fotorama__wrap--css3.fotorama__wrap--no-controls.fotorama__wrap--slide.fotorama__wrap--toggle-arrows .fotorama__arr--prev:not(:focus) {
+  -webkit-transform: translate3d(0px, 0, 0) !important;
+  transform: translate3d(0px, 0, 0) !important;
+}
+
+section.gallery .fotorama__wrap {
+  display: block;
+  text-align: center;
+  margin: 47px auto 0;
+}
+
+section.gallery .fotorama__wrap .fotorama__arr--prev {
+  left: 2px !important;
+  opacity: 1 !important;
+  background-image: url("../images/arr-left.jpg");
+  background-repeat: no-repeat;
+  width: 40px !important;
+  height: 104px !important;
+  background-position: 0 0 !important;
+}
+
+section.gallery .fotorama__wrap .fotorama__arr--next {
+  opacity: 1 !important;
+  transform: rotate(360deg) !important;
+  background-image: url("../images/arr-right.jpg");
+  background-repeat: no-repeat;
+  width: 40px !important;
+  height: 104px !important;
+  background-position: 0 0 !important;
+}
+
+section.gallery .fotorama__nav-wrap {
+  margin-top: 30px;
+}
+
+section.gallery .fotorama__stage {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 9px rgba(0, 0, 0, 0.75);
+  display: block;
+  margin: 0 auto;
+}
+
+section.gallery .fotorama__stage img {
+  padding: 20px !important;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+/* Конец блока Галерея */
+
+/* Блок О проекте */
+section.about-project {
+  margin-top: 0px;
+  padding-bottom: 45px;
+}
+
+section.about-project .wrp-tes {
+  color: #0f1c25;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin: 40px auto 40px;
+}
+
+section.about-project .wrp-tes img {
+  display: block;
+  margin: 0 auto 15px;
+}
+
+section.about-project .text-about-project {
+  line-height: 17px;
+  color: #0f1c25;
+  font-size: 17px;
+  font-family: Tahoma;
+  margin-bottom: 11px;
+}
+
+section.about-project .title-block {
+  text-align: center;
+  padding-top: 75px;
+  margin-bottom: 32px;
+  color: #0f1c25;
+  font-family: "MyriadProBold";
+  font-size: 42px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+section.about-project .descr-block {
+  font-family: Tahoma;
+  margin-bottom: 17px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 25px;
+  color: #0f1c25;
+  text-transform: uppercase;
+}
+
+section.about-project .descr-block strong {
+  color: #4ba2c0;
+  font-family: "MyriadProSemiBold";
+}
+/* Конец блока О проекте */
+
+/* Блок Застройщик */
+section.zastroychik {
+  margin-top: -75px;
+}
+
+section.zastroychik .col-sm-8 {
+  padding-left: 0;
+}
+
+section.zastroychik .col-sm-4 {
+  padding-right: 0;
+}
+
+section.zastroychik .title-block {
+  text-align: center;
+  padding-top: 75px;
+  margin-bottom: 60px;
+  color: #0f1c25;
+  font-family: "MyriadProBold";
+  font-size: 42px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+section.zastroychik .wrp-poseydon {
+  background-color: #e7edf3;
+  padding: 85px 0 68px;
+  position: relative;
+}
+
+section.zastroychik .wrp-poseydon:after {
+  content: '';
+  position: absolute;
+  left: -375px;
+  top: 0;
+  background-image: url("../images/zastroychik-left.jpg");
+  height: 201px;
+  width: 100%;
+}
+
+section.zastroychik .text-zastroychik {
+  background-color: #77787c;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 25px 15px;
+  color: #fff;
+  position: relative;
+}
+
+section.zastroychik .text-zastroychik:after {
+  content: '';
+  position: absolute;
+  right: -764px;
+  top: 0;
+  background-image: url("../images/zastroychik-right.jpg");
+  height: 200px;
+  width: 100%;
+}
+
+section.zastroychik .text-zastroychik span {
+  color: #feba3d;
+  text-transform: uppercase;
+}
+/* Конец блока Застройщик */
+
+
+/* Блок Адрес и Контакты */
+section.adres {
+  padding-top: 60px;
+  padding-bottom: 45px;
+}
+
+section.adres .block-adres .wrp-phone-sell {
+  color: #0f1c25;
+  margin-top: 15px;
+}
+
+section.adres .block-adres .wrp-phone-sell strong {
+  font-size: 25px;
+  line-height: 24px;
+  font-weight: 400;
+  display: block;
+}
+
+section.adres .block-adres .wrp-phone-sell .ph {
+  color: #0f1c25;
+  font-size: 33px;
+  line-height: 33px;
+  display: block;
+  font-family: "MyriadProSemiBold";
+}
+
+section.adres .block-adres .wrp-phone-sell .ph span {
+  color: #e5494f;
+  font-size: 33px;
+  line-height: 33px;
+}
+
+section.adres .block-adres .wrp-phone-sell .call-back {
+  color: #4da2bf;
+  font-size: 17px;
+  line-height: 17px;
+  text-decoration: underline;
+}
+
+section.adres .block-adres .top-line {
+  background-image: url("../images/dark-icon-map.png");
+  background-repeat: no-repeat;
+  background-position: 20px center;
+  background-color: #e7edf3;
+  color: #0f1c25;
+  font-size: 17px;
+  min-height: 50px;
+  line-height: 50px;
+  padding-left: 52px;
+  margin-bottom: 15px;
+}
+
+section.adres .wrp-otdel-img {
+  display: table-row;
+}
+
+section.adres .wrp-otdel-img .author-photo {
+  margin-right: 15px;
+}
+
+section.adres .wrp-otdel-img img {
+  display: table-cell;
+  vertical-align: top;
+}
+
+section.adres .wrp-otdel-img .wrp-text-otdel {
+  display: table-cell;
+  vertical-align: top;
+}
+
+section.adres .wrp-otdel-img .wrp-text-otdel ul li {
+  color: #0f1c25;
+  font-size: 25px;
+  line-height: 21px;
+  margin-bottom: 30px;
+}
+
+section.adres .wrp-otdel-img .wrp-text-otdel ul li strong.alex {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+section.adres .wrp-otdel-img .wrp-text-otdel ul li img {
+  float: left;
+  margin-right: 10px;
+}
+/* Конец блока Адрес и Контакты */
+
+
+/* Подвал сайта */
+footer {
+  background-color: #4da2bf;
+  padding: 17px 0;
+}
+
+footer .p1, footer .p2 {
+  color: #fff;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer .p3 {
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+footer .btn-bottom {
+  width: 198px;
+  padding-top: 7px;
+  height: 52px;
+  margin: 3px 32px 0 32px;
+  background-color: #4da2bf;
+  display: inline-block;
+  color: #FFF;
+  text-align: center;
+  border: 1px solid #fff;
+  font-size: 17px;
+  background-image: url("../images/gradient-mnu.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 0;
+  line-height: 17px;
+  transition: all .3s ease;
+}
+
+footer .btn-bottom:hover {
+  background-color: #ffbb42;
+  color: #000;
+}
+
+footer .btn-phone {
+  width: 294px;
+  height: 71px;
+  background-color: #ffbb42;
+  border: 1px solid #fff;
+  background-image: url("../images/icon-phone.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #0f1c25;
+  font-size: 17px;
+  padding-top: 5px;
+  margin-top: 3px;
+  padding-left: 70px;
+  line-height: 21px;
+  position: relative;
+}
+
+footer .btn-phone:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  content: '';
+  background-image: url("../images/gradient-mnu.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 0;
+  height: 71px;
+  width: 100%;
+}
+
+footer .btn-phone a {
+  font-size: 25px;
+  display: block;
+  cursor: pointer;
+  color: #0f1c25;
+  position: relative;
+  z-index: 2;
+}
+
+footer .btn-phone a.callback {
+  font-size: 17px;
+  line-height: 17px;
+  text-decoration: underline;
+}
+
+footer .btn-phone a.callback:hover {
+  text-decoration: none;
+}
+/* Конец подвала сайта */
+
+
+/* Блок Типовая планировка этажа */
+section.plan-gallery {
+  padding-top: 65px;
+  padding-bottom: 25px;
+}
+
+section.plan-gallery .fotorama__wrap {
+  padding-bottom: 50px !important;
+}
+
+section.plan-gallery .fotorama__wrap--css3.fotorama__wrap--no-controls.fotorama__wrap--slide.fotorama__wrap--toggle-arrows .fotorama__arr--prev:not(:focus) {
+  -webkit-transform: translate3d(0px, 0, 0) !important;
+  transform: translate3d(0px, 0, 0) !important;
+}
+
+section.plan-gallery .fotorama__arr {
+  top: auto !important;
+  bottom: 0px !important;
+  z-index: 2;
+}
+
+section.plan-gallery .fotorama__nav-wrap {
+  display: none;
+}
+
+section.plan-gallery .fotorama__arr--prev {
+  background-image: url("../images/arrow-left-nactive.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 31px;
+  left: 46% !important;
+  height: 54px;
+  cursor: pointer;
+  z-index: 9;
+  opacity: 1 !important;
+}
+
+section.plan-gallery .fotorama__arr--prev:hover, section.plan-gallery .fotorama__arr--prev:active {
+  background-image: url("../images/arrow-left-active.png") !important;
+}
+
+section.plan-gallery .fotorama__arr--next {
+  right: 46%;
+  cursor: pointer;
+  z-index: 9;
+  background-image: url("../images/arrow-right-nactive.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 31px;
+  height: 54px;
+  transform: rotate(360deg) !important;
+  opacity: 1 !important;
+}
+
+section.plan-gallery .fotorama__arr--next:hover, section.plan-gallery .fotorama__arr--next:active {
+  background-image: url("../images/arrow-right-active.png") !important;
+}
+
+section.plan-gallery .fotorama-plan-gallery {
+  position: relative;
+}
+
+section.plan-gallery .fotorama-plan-gallery:after {
+  content: '';
+  position: absolute;
+  right: 10%;
+  bottom: -28px;
+  width: 442px;
+  z-index: 1;
+  background-size: contain;
+  height: 450px;
+  background-image: url("../images/magnifier.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+section.plan-gallery .block-title {
+  text-align: center;
+  margin-bottom: 43px;
+  color: #0f1c25;
+  font-family: "MyriadProBold";
+  font-size: 42px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+/* Конец блока Типовая планировка этажа */
+
+/* Всплывающее окно Заказать обратный звонок */
+.frame1, .frame5 {
+  top: 80px !important;
+  opacity: 1 !important;
+}
+
+.frame3 {
+  left: auto;
+  right: auto;
+  width: auto;
+  display: block;
+}
+
+.frame3 img {
+  margin: 0 auto !important;
+  max-width: 555px !important;
+  max-height: 565px !important;
+  display: block !important;
+}
+
+.white-popup {
+  width: 556px;
+  height: 419px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.form-call-back {
+  width: 556px;
+  height: 419px;
+  border: 1px solid #6e6e6e;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.75);
+  text-align: center;
+  padding: 30px 65px;
+  background-color: #FFF;
+  margin: 0 auto;
+}
+
+.form-call-back form {
+  margin-top: 25px;
+}
+
+.form-call-back strong {
+  display: block;
+  color: #0f1c25;
+  font-family: "MyriadProBold";
+  font-size: 25px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.form-call-back span {
+  color: #0f1c25;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+.form-call-back input {
+  height: 55px;
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  width: 100%;
+  border: 1px solid #827f7f;
+}
+
+.form-call-back button {
+  height: 53px;
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #ffbb42;
+  color: #fefefe;
+  font-size: 25px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.white-popup1 {
+  width: 1007px;
+  height: 711px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.wrp-plan-apartments {
+  text-align: center;
+  background-color: #FFF;
+  width: 1007px;
+  height: 711px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border: 1px solid #6e6e6e;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.75);
+}
+
+.wrp-plan-apartments .btn-phone {
+  width: 408px;
+  margin-right: 0px;
+  margin-top: 45px;
+  float: right;
+  background-image: url("../images/icon-phone2.png");
+  background-repeat: no-repeat;
+  background-position: 15px center;
+  padding-left: 90px;
+  height: 104px;
+  background-color: #ffbb42;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.75);
+  color: #FFF;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: left;
+  padding-top: 12px;
+}
+
+.wrp-plan-apartments .btn-phone a {
+  font-size: 33px;
+  display: block;
+  color: #fff;
+  font-family: "MyriadProSemiBold";
+}
+
+.wrp-plan-apartments .btn-phone .callback {
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "MyriadProRegular";
+}
+
+.wrp-plan-apartments .plan-credit2 {
+  background-color: #ffbb42 !important;
+}
+
+.wrp-plan-apartments .plan-credit {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 30px 7px 0;
+  width: 109px;
+  height: 109px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding-top: 14px;
+  background-color: #71c4d6;
+}
+
+.wrp-plan-apartments .plan-credit img {
+  display: block;
+  margin: 0 auto 5px;
+}
+
+.wrp-plan-apartments .title-block {
+  color: #0f1c25;
+  font-size: 33px;
+  line-height: 33px;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.wrp-plan-apartments .room-plan {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.wrp-plan-apartments .room-plan .bl-title {
+  color: #0f1c25;
+  font-size: 25px;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+.wrp-plan-apartments .room-plan strong {
+  display: block;
+  color: #6892bb;
+  font-size: 33px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  line-height: 33px;
+}
+
+.wrp-plan-apartments .room-plan .footer-title {
+  color: #0f1c25;
+  font-size: 33px;
+  margin-top: 10px;
+  font-family: "MyriadProSemiBold";
+  line-height: 33px;
+}
+
+.white-popup2 {
+  width: 1142px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+
+.weonmap {
+  width: 1142px;
+  border: 1px solid #6e6e6e;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.75);
+  display: block;
+  margin: 0 auto;
+  padding: 30px 15px 15px 15px;
+  background-color: #FFF;
+}
+
+.weonmap .title-block {
+  color: #0f1c25;
+  font-family: "MyriadProBold";
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+
+
+@media (max-width: 992px) {
+  .header {
+    padding-bottom: 0;
+  }
+  .header .container {
+    padding-left: 0;
+    padding-right: 0;
+    width: initial;
+  }
+  .header .col-sm-4, .header .col-sm-8 {
+    float: none;
+    width: 100%;
+  }
+  .header .col-sm-4 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .header .col-sm-8 {
+    background: #fff;
+    padding: 20px 50px 10px;
+    text-align: center;
+  }
+  .header ul li {
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .header ul li a {
+    background-image: none;
+    background-color: #fff;
+    border: 1px solid #4da2bf;
+    color: #0f1c25;
+    font-size: 16px;
+    line-height: 0.8;
+    padding: 10px;
+    margin-left: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .col-sm-8 {
+    padding: 15px 15px 5px;
+  }
+  .header ul li a {
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .logo {
+    max-width: 70%;
+  }
+  .header .col-sm-8 {
+    padding: 6px 10px 0;
+  }
+  .header ul li a {
+    font-size: 10px;
+  }
+}
